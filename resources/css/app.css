@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Fuente_titulo';
+    src: url('./fonts/Ungai.otf');
+    font-style: normal;
+    font-weight: 400;
+  }
+
+@font-face {
+    font-family: 'Fuente_texto';
+    src: url('./fonts/SegUIVar.ttf');
+    font-style: normal;
+    font-weight: 320;
+  }
+
+  
+@font-face {
+    font-family: 'Fuente_texto_bold';
+    src: url('./fonts/Segoe UI Bold.ttf');
+    font-style: extra-bold;
+    font-weight: 900;
+  }
+
+  /*Empieza aqui*/
+
+*{
+    background-color: black !important;
+}
+
+.titulo-japon{
+    font-family: 'Fuente_titulo';    
+    font-weight: 800;
+    font-size: 100px;
+    color:#413c3c;
+}
+
+.titulo-japon-2{
+    font-family: 'Fuente_titulo';    
+    font-weight: 800;
+    font-size: 60px;
+    color:#413c3c;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.titulotexto{
+    font-family: 'Fuente_texto';  
+    font-size: 15px;
+    color:#413c3c;
+}

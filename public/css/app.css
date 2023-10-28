@@ -1,0 +1,472 @@
+@font-face {
+    font-family: 'Fuente_titulo';
+    src: url('./fonts/Ungai.otf');
+    font-style: normal;
+    font-weight: 400;
+  }
+
+@font-face {
+    font-family: 'Fuente_texto';
+    src: url('./fonts/SegUIVar.ttf');
+    font-style: normal;
+    font-weight: 320;
+  }
+
+  
+@font-face {
+    font-family: 'Fuente_texto_bold';
+    src: url('./fonts/Segoe UI Bold.ttf');
+    font-style: extra-bold;
+    font-weight: 900;
+  }
+
+
+/*Variables de fuentes*/
+.titulo-japon-reducido{
+  font-family: 'Fuente_titulo';    
+  font-weight: 800;
+  font-size: 30px;
+  color:#413c3c;
+}
+
+#titulo-japon-reducido-2{
+  font-family: 'Fuente_titulo';    
+  font-weight: 800;
+  font-size: 40px;
+  color:#413c3c;
+}
+
+.titulo-japon-reducido-recetas{
+  font-family: 'Fuente_titulo';    
+  font-weight: 800;
+  font-size: 20px;
+  color:#413c3c;
+}
+
+.titulo-japon-blanco-header{
+    font-family: 'Fuente_titulo';    
+    font-weight: 800;
+    font-size: 100px;
+    color:#413c3c;
+}
+
+.titulo-japon-blanco{
+  font-family: 'Fuente_titulo';    
+  font-weight: 800;
+  font-size: 70px;
+  color:#413c3c;
+  left:0 !important;
+}
+
+.titulo-japon-oscuro{
+  font-family: 'Fuente_titulo';    
+  font-weight: 800;
+  font-size: 70px;
+  color:#f8f9fa;
+}
+
+.tituloPresentacionCabeceras{
+  font-family: 'Fuente_titulo'; 
+  text-align: center;
+  font-weight: 800;
+  font-size: 90px;
+  color:#f8f9fa;
+  padding-top: 180px;
+  margin: auto 100px;
+}
+
+.titulotexto{
+  font-family: 'Fuente_texto';  
+  font-size: 15px;
+  color:#413c3c;
+}
+
+.tituloPresentacion{
+  font-family: 'Fuente_titulo'; 
+  text-align: center;
+  font-weight: 800;
+  font-size: 200px;
+  color:#f8f9fa;
+  padding-top: 205px;
+}
+
+.textoLegal{text-align: justify;}
+
+
+/*Generales*/
+*{
+   font-family: 'Fuente_texto'; 
+}
+
+a{text-decoration: none !important;color:#2f2e2e;}
+a:hover, a:active{color:#f54545 !important;}
+
+img{
+    position:relative;
+    padding:0px !important;
+    margin:0px !important;
+}
+
+
+
+
+/*Botones*/
+#botonBlancoHeder{
+  width: 100%;
+  height: auto;
+  border-radius: 100px;
+  border: 0.1px solid #f54545;
+  background-color:#f54545;
+  color:#f8f9fa;
+  margin-bottom: 10px;
+  padding: 2px ;
+  line-height: auto;
+  transition: all 0.25s ease-in-out 0s;
+}
+
+.botonBlanco{
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+  border: 0.1px solid #f54545;
+  background-color:#f54545;
+  color:#f8f9fa;
+  margin-bottom: 10px;
+  padding: 2px ;
+  line-height: auto;
+  transition: all 0.25s ease-in-out 0s;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px !important;
+}
+
+.botonBlanco:hover{
+  color:#f54545;
+  background-color:#f8f9fa00;
+  transition: all 0.25s ease-in-out 0s;
+}
+
+.botonBlancoCentral{
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+  border: 0.1px solid #f54545;
+  background-color:#f8f9fa;
+  color:#f54545;
+  padding: 2px ;
+  line-height: auto;
+  transition: all 0.25s ease-in-out 0s;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.botonNegroCentral{
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+  border: 0.1px solid #f8f9fa;
+  background-color:#ffffff00;
+  color:#f8f9fa;
+  padding: 2px ;
+  line-height: auto;
+  transition: all 0.25s ease-in-out 0s;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+.botonNegro{
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+  border: 0.1px solid #f8f9fa;
+  background-color:#ffffff00;
+  color:#f8f9fa;
+  padding: 2px ;
+  line-height: auto;
+  transition: all 0.25s ease-in-out 0s;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px !important;
+}
+
+.botonNegro:hover, .botonNegroCentral:hover, .botonBlancoCentral:hover{
+  border: 0.1px solid #f54545;
+  color:#f8f9fa;
+  background-color:#f54545;
+  transition: all 0.25s ease-in-out 0s;
+}
+
+.botonNavegador{
+  width: 200px;
+  height: auto;
+  border-radius: 100px;
+  border: 0.1px solid #f54545 !important;
+  background-color:#f8f9fa !important;
+  color:#f54545;
+  padding: 3px 50px ;
+  line-height: auto;
+  transition: all 0.25s ease-in-out 0s;
+  
+  justify-content: center;
+}
+
+.botonNavegador:hover{
+  border: 0.1px solid #f54545 !important;
+  background-color:#f54545 !important; 
+  color:#f8f9fa !important;
+  transition: all 0.25s ease-in-out 0s;
+}
+
+/*Cabeceras*/
+#cabeceraInicio{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 61, 0.652),
+    rgba(66, 61, 61, 0.652)
+  ),url("../images/web/header-inicio.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 700px;
+}
+
+#cabeceraPaginaRecetas{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 61, 0.652),
+    rgba(66, 61, 61, 0.652)
+  ),url("../images/web/header-recetas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 480px;
+}
+
+#cabeceraPaginaHistoria{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 61, 0.652),
+    rgba(66, 61, 61, 0.652)
+  ),url("../images/web/header-mi-historia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 480px;
+}
+
+#cabeceraPaginaReceta{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 480px;
+}
+
+#cabeceraPaginaLegal{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 61, 0.652),
+    rgba(66, 61, 61, 0.652)
+  ),url("../images/web/header-legal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 480px;
+}
+
+#cabeceraPaginaContacto{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 61, 0.652),
+    rgba(66, 61, 61, 0.652)
+  ),url("../images/web/header-contacto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  width: 100%;
+  height: 480px;
+}
+
+#cabeceraPaginaLogin{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 61, 0.652),
+    rgba(66, 61, 61, 0.652)
+  ),url("../images/web/header-login.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  width: 100%;
+  height: 480px;
+}
+
+
+/*INICIO*/
+.navbar-toggler, .navbar-toggler:hover, .navbar-toggler:active, .navbar-toggler:focus, .navbar-toggler:visited, .navbar-toggler:target, .navbar-toggler:focus-visible{
+  border:none !important;
+  box-shadow:none !important;
+}
+
+.fondoNegro{
+  background-color: #2f2e2e;
+  color:#f8f9fa;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 200px 0px;
+}
+
+.fondoBlanco{
+  background-color: #f8f9fa;
+  color:#2f2e2e;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 200px 0px;
+}
+
+.fondoBlancoRecetas{
+  background-color: #f8f9fa;
+  color:#2f2e2e;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 100px 0px;
+}
+
+
+.imagenBloque{
+  width: 50%;
+  height: auto;
+  margin: auto !important;
+  display: block;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 30px !important;
+}
+
+.imagenAdaptable{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.filtro-gris{
+  background-color:#2f2e2e !important;
+}
+
+.centrarTexto{
+  text-align: center !important;
+}
+
+.textoDerecha{
+  text-align: right !Important;
+}
+
+.md-50{
+  padding-right: 50px;
+}
+
+
+
+/*RECETAS*/
+.imagenRecetas{
+  width: 100%;
+  height: 325px;
+  object-fit: cover;
+  opacity: 0.85;
+  padding: auto 100px;
+}
+
+.bloqueRecetas{
+  margin-bottom: 120px;
+}
+
+.bloqueRecetasTexto{
+  margin:auto 25px;
+  text-align: justify;
+}
+
+.bloqueRecetaSlugTexto{
+  margin:auto 10vw;
+  text-align: justify;
+}
+
+
+
+
+/*HISTORIA*/
+.parallax{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 61, 0.652),
+    rgba(66, 61, 61, 0.652)
+  ),url("../images/web/parallax.png");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*CONTACTO*/
+.form-control:focus {
+  border-color:#f54545 !important;
+  box-shadow:0 0 0 0.25rem rgba(255, 0, 0, 0.277) !important;
+}
+
+iframe{
+  width:100%;
+  height:450px; 
+  margin:auto;
+}
+
+
+/*Parallax*/
+.parallax-contacto{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 61, 0.652),
+    rgba(66, 61, 61, 0.652)
+  ),url("../images/web/parallax-contacto.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax-login{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 61, 0.652),
+    rgba(66, 61, 61, 0.652)
+  ),url("../images/web/login.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position:  bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax-editar{
+  background-image: linear-gradient(
+    to bottom,
+    rgba(66, 61, 61, 0.652),
+    rgba(66, 61, 61, 0.652)
+  ),url("../images/web/parallax-editar.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position:  bottom center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

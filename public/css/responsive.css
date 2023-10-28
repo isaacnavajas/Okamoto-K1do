@@ -1,0 +1,183 @@
+
+
+
+@media (max-width: 575.98px) { 
+
+    .tituloPresentacion{
+        font-size: 30vw;
+        color:#f8f9fa;
+      }
+
+    .imagenBloque{
+        width: 80%;
+        margin: 0px auto 90px auto !important;
+    }
+
+
+
+    .titulo-japon-oscuro{
+        font-size: 8vw ;
+        margin-bottom: -10px!important;
+      }
+
+    .titulo-japon-blanco{
+        font-size: 8vw ;
+        margin-bottom: -10px!important;
+    }
+
+
+    .tituloPresentacionCabeceras{
+        font-size: 12vw !important;
+        margin: auto 20px;
+      }
+
+    #cabeceraPaginaHistoria, #cabeceraPaginaRecetas, #cabeceraPaginaLegal, #cabeceraPaginaContacto, #cabeceraPaginaLogin{
+        height: 400px ;
+    }
+
+
+    .fondoNegro{
+        padding: 120px 0px;
+      }
+
+    .fondoBlanco{
+        padding: 120px 0px;
+      }
+
+    .bloqueRecetasTexto{
+        margin:auto;
+      }
+
+    .md-50{
+        padding-right: 0px !important;
+      }
+
+    .imagenRecetas{
+        margin-bottom: 40px !important;
+      }
+
+    .bloqueRecetaSlugTexto{
+        margin:0px ;
+    }
+
+    .fondoBlancoRecetas{
+        padding: 50px 0px;
+      }
+
+    .bloqueRecetasTexto form{
+        margin-top: 25px;
+    }
+
+    .botonNavegador{
+        width: 200px;
+        height: auto;
+        border-radius: 100px;
+        border: 0.1px solid #f54545 !important;
+        background-color:#f8f9fa !important;
+        color:#f54545;
+        padding: 3px 25px ;
+        line-height: auto;
+        transition: all 0.25s ease-in-out 0s;
+        margin:auto;
+        justify-content: center;
+      }
+
+    .textoDerecha{
+        text-align:center !important;
+    }
+
+    div > .textoDerecha:first-child{
+        margin-top: 50px;
+    }
+ 
+
+}
+
+
+@media (max-width: 767.98px) {    
+
+ }
+
+
+@media (max-width: 991.98px) and (min-width:575.98px){ 
+    .tituloPresentacion{
+        font-size: 150px;
+    }
+
+    #cabeceraInicio{
+        height: 660px;
+    }
+
+    .fondoNegro{
+        padding: 170px 0px;
+    }
+
+    .fondoBlanco{
+        padding: 170px 0px;
+    }
+
+    .imagenBloque{
+        width: 60%;
+        margin: 0px auto 110px auto!important;
+      }
+
+    .bloqueRecetasTexto{
+        margin:auto 0px;
+      }
+
+      h2{
+        font-size: 35px !important;
+      }
+
+
+    .titulo-japon-oscuro{
+        font-size: 40px;
+      }
+
+    .titulo-japon-blanco{
+        font-size: 40px;
+    }
+
+    .tituloPresentacionCabeceras{
+        font-size: 60px;
+      }
+
+    #cabeceraPaginaHistoria, #cabeceraPaginaRecetas, #cabeceraPaginaLegal, #cabeceraPaginaContacto, #cabeceraPaginaLogin{
+        height: 425px ;
+    }
+
+    .imagenRecetas{
+        margin-bottom: 40px !important;
+      }
+
+    .bloqueRecetasTexto form{
+        margin-top: 50px;
+    }
+
+    #cabeceraPaginaReceta{
+        height: 550px;
+      }
+
+    .bloqueRecetaSlugTexto{
+        margin:0px;
+      }
+
+
+
+ }
+
+
+@media (max-width: 1199.98px) { ... }
+
+
+@media (max-width: 1399.98px) { ... }
+
+
+
+
+
+
+
+
+
+
